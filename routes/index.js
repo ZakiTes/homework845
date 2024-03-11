@@ -28,7 +28,7 @@ router.get("/sum/:number1/:number2", async (req, res) => {
   }
   res.json({
     status: "success",
-    result: result
+    result: result,
   });
 });
 
